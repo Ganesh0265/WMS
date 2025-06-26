@@ -13,6 +13,6 @@ export default class App extends Component {
 
 const appDiv = document.getElementById("app");
 
-// ✅ Correct usage of createRoot
+// Correct usage of createRoot
 const root = createRoot(appDiv);
 root.render(<App />);
